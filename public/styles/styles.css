@@ -1,0 +1,14 @@
+body {
+  max-width: 600px;
+  margin: 0 auto;
+  font-family: "Arimo";
+}
+
+#logo {
+  width: 400px;
+}
+
+@font-face {
+  font-family: "Arimio";
+  src: url("styles/Arimo");
+}
