@@ -1,14 +1,119 @@
+
 body {
-  max-width: 600px;
-  margin: 0 auto;
-  font-family: "Arimo";
+  max-width: 75%;
+  margin: auto;
+  font-family: helvetica;
+  font-weight: lighter;
+  letter-spacing: 0.5px;
 }
 
+header{
+  max-width: 95%;
+  margin: auto;
+}
+
+/* Style the logo */
 #logo {
-  width: 400px;
+  display: block;
+  width: 80%;
+  margin: auto;
+}
+
+/* About section - anything under logo */
+.about{
+  width: 90%;
+  margin: auto;
+  line-height: 25px;
+}
+
+.main-photos-container{
+  width: 80%;
+  margin: auto;
+}
+
+/* Main headshot */
+.main-photos{
+  display: block;
+  width: 80%;
+  margin: auto;
+  padding-bottom: 30px;
+}
+
+/* paragraph wrapper for socials */
+.socials img {
+  width: 80px;
+  height: auto;
+  margin-top: 40px;
+}
+
+/* images for links to socials */
+.contact-img {
+  width: 27px;
+  height: 27px;
+  margin: 0px 10px;
 }
 
 @font-face {
   font-family: "Arimio";
   src: url("styles/Arimo");
+}
+
+/* Media query for tablets */
+@media only screen and (max-width: 1300px) {
+}
+
+/* Media query for smartphones */
+@media only screen and (max-width: 1000px) {
+  body {
+    max-width: 75%;
+    margin: auto;
+    font-family: helvetica;
+    font-weight: lighter;
+    letter-spacing: 0.5px;
+  }
+  
+  header{
+    max-width: 95%;
+    margin: auto;
+  }
+  
+  /* Style the logo */
+  #logo {
+    display: block;
+    width: 80%;
+    margin: auto;
+  }
+  
+  /* About section - anything under logo */
+  .about{
+    width: 90%;
+    margin: auto;
+    line-height: 25px;
+  }
+
+  .main-photos-container{
+    width: 80%;
+    margin: auto;
+  }
+  /* Main headshot */
+  .main-photos{
+    display: block;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 30px;
+  }
+
+  .socials img {
+    width: 80px;
+    height: auto;
+    margin-top: 40px;
+  }
+
+  .contact-img {
+    width: 27px;
+    height: 27px;
+    margin: 0px 10px;
+  }
+  
+  
 }
